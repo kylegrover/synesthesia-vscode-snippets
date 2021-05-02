@@ -1,0 +1,21 @@
+{
+	"name": "synesthesia-vscode-snippets",
+	"displayName": "Synesthesia Snippets",
+	"description": "Synesthesia GLSL Function and Uniform Snippets",
+	"version": "0.0.1",
+	"publisher": "ufffd",
+	"engines": {
+		"vscode": "^1.28.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "glsl",
+				"path": "./snippets.json"
+			}
+		]
+	}
+}

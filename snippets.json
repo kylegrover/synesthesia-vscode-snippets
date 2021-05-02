@@ -1,0 +1,12 @@
+{
+    "ƒ: _scale()": {
+        "prefix": ["_scale","scale"],
+        "body": "_scale(${1:value:string}, ${2:min:string}, ${3:max:string})",
+        "description": "Scales a value within the range 0 to 1 to the new range min to max"
+    },
+    "uniform: syn_Level": {
+        "prefix": ["syn_Level","lvl","volume"],
+        "body": "syn_Level",
+        "description": "float: Overall loudness"
+    },
+}
